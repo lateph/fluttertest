@@ -21,8 +21,10 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: "WhatsApp",
       theme: new ThemeData(
-        primaryColor: Colors.blue,
+        hintColor: Color(0xFF9B9B9B),
+        primaryColor: Color(0xFF229D5F),
         accentColor: Colors.red,
+        fontFamily: 'proxima'
       ),
       debugShowCheckedModeBanner: false,
       routes: routes,
